@@ -1,0 +1,74 @@
+/* main-body-section starts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    margin-bottom: 50px;
+}
+/* main-body-section ends */
+
+
+
+/* header-section-starts  */
+
+header{
+    background-color: #F0FFF0;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+/* menu-section starts */
+
+.font-color{
+    color: #413960;
+}
+.menu a{
+    padding:8px 20px;
+    margin-left: 10px;
+    border-radius: 20px;
+    color:black;
+    font-size: 17px;
+    transition: all ease-in-out .3s;
+}
+.menu a:hover{
+    font-size: 17px;
+    border: none;
+    background-color: #1db872;
+    color: #fff !important;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+.signin{
+    background-color:rgb(27, 175, 118);
+    color:white !important;
+    border-radius:20px;
+    padding:8px 20px;
+    border:none;
+}
+li span a {
+    color:black !important;
+}
+
+/* menu-section ends */
+
+/* banner-section-starts  */
+.banner h1 span{
+    color: #21B573;
+}
+.get-started{
+    padding: 10px 30px;
+    border: 1px solid  #1db872;
+    background-color: transparent;
+    border-radius: 30px;
+    transition: all ease-in-out .3s;
+    font-size: 14px;
+}
+.get-started:hover{
+    background-color:  #1db872;
+    color: #fff;
+}
+/* banner-section-starts  */
+
+
+/* header-section-ends  */
