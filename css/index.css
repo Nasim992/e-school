@@ -30,9 +30,6 @@ header{
     font-size: 17px;
     transition: all ease-in-out .3s;
 }
-.menu a:focus{
-    border:none;
-}
 .menu a:hover{
     font-size: 17px;
     border: none;
@@ -129,3 +126,31 @@ small{
     font-weight: 500;
     }
 /* Online-courses-section ends */
+/* Testimonial-section  starts*/
+.testtimonial {
+    color:black;
+}
+.testimonial h2 {
+    font-weight:700;
+}
+/* Testimonial-section  ends*/
+
+/* footer-section starts */
+footer{
+    background-color: #282531;
+    height: 400px;
+    color:white;
+    text-align:justify;
+}
+footer li{
+list-style-type: none;
+}
+footer li a,footer p{
+color: #fff;
+font-weight: 400;
+}
+footer li a:hover{
+color: #fff;
+}
+
+/* footer-section ends */
