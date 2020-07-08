@@ -107,10 +107,10 @@ li span a {
     font-size:24px;
 }
 .buy-course{
-    padding: 8px 28px;
+    padding: 8px 20px;
     border: 1px solid  #21B573;
     background-color: transparent;
-    border-radius: 30px;
+    border-radius: 33px;
     transition: all ease-in-out .3s;
     font-size: 16px;
 }
@@ -156,13 +156,27 @@ small{
 }
 /* Testimonial-section  ends*/
 
+/* form-section starts */
+.form-section {
+    color:#000000;
+    font-size:16px;
+}
+input,option {
+    border:1px solid #299c6975 !important;
+}
+.form-section h3 {
+    font-weight:700 ;
+    padding:50px;
+}
+/* form-section ends */
+
 /* footer-section starts */
 footer{
     background-color: #282531;
     color:white;
     text-align:justify;
     background-position: cover;
-    height:370px;
+    
 }
 footer li{
 list-style-type: none;
