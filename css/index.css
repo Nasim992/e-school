@@ -138,9 +138,9 @@ small{
 /* footer-section starts */
 footer{
     background-color: #282531;
-    height: 400px;
     color:white;
     text-align:justify;
+    background-position: cover;
 }
 footer li{
 list-style-type: none;
@@ -152,5 +152,8 @@ font-weight: 400;
 footer li a:hover{
 color: #fff;
 }
-
+footer span {
+    color:rgba(255, 255, 255, 0.603);
+    padding-bottom:50px;
+}
 /* footer-section ends */
