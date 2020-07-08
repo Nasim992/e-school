@@ -21,30 +21,25 @@ header{
 /* menu-section starts */
 
 .font-color{
-    color: #413960;
+    color: #010003;
 }
 .menu a{
-    padding:8px 20px;
-    margin-left: 10px;
+    padding:8px 20px !important;
     border-radius: 20px;
     color:black;
     font-size: 17px;
     transition: all ease-in-out .3s;
+}
+.menu a:focus{
+    border:none;
 }
 .menu a:hover{
     font-size: 17px;
     border: none;
     background-color: #1db872;
     color: #fff !important;
-    padding: 10px 10px;
+    padding: 8px 20px !important;
     border-radius: 20px;
-}
-.signin{
-    background-color:rgb(27, 175, 118);
-    color:white !important;
-    border-radius:20px;
-    padding:8px 20px;
-    border:none;
 }
 li span a {
     color:black !important;
@@ -55,6 +50,9 @@ li span a {
 /* banner-section-starts  */
 .banner h1 span{
     color: #21B573;
+}
+.banner h1 {
+    font-weight:700;
 }
 .get-started{
     padding: 10px 30px;
@@ -67,8 +65,67 @@ li span a {
 .get-started:hover{
     background-color:  #1db872;
     color: #fff;
+    
 }
-/* banner-section-starts  */
-
-
+/* banner-section-ends  */
 /* header-section-ends  */
+
+
+/* display-feature-section starts */
+.feature{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #F8FFFB;
+    transition: all ease-in-out .4s;
+}
+.feature:hover{
+    box-shadow: 1px 8px 20px rgb(0, 0, 0,.15);
+    background-color: #fff;
+}
+.feature h5{
+    font-size: 21px;
+    
+}
+.bg-color {
+     background-color:rgba(229, 241, 239, 0.363);
+}
+/* display-feature-section  ends*/
+
+/* Online-courses-section starts  */
+ .course-section-color h2,h5{
+     color:rgba(13, 6, 63, 0.876);
+ }
+.buy-course{
+    padding: 5px 20px;
+    border: 1px solid  #1db872;
+    background-color: transparent;
+    border-radius: 30px;
+    transition: all ease-in-out .3s;
+    font-size: 14px;
+}
+.buy-course:hover{
+    background-color:  #1db872;
+    color: #fff;
+}
+
+.card-sizzing{
+    padding: 15px;
+    border: none;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+.card-foot{
+    border-top: none;
+    background-color: #fff;
+}
+.card-footer-logo{
+    width: 24px;
+    height: 24px;
+}
+
+small{  
+    font-size: 14px; 
+    font-weight: 500;
+    }
+/* Online-courses-section ends */
