@@ -62,6 +62,7 @@ li span a {
 .get-started:hover{
     background-color:  #1db872;
     color: #fff;
+    cursor:pointer;
     
 }
 /* banner-section-ends  */
@@ -79,6 +80,7 @@ li span a {
 .feature:hover{
     box-shadow: 1px 8px 20px rgb(0, 0, 0,.15);
     background-color: #fff;
+    cursor:pointer;
 }
 .feature h5{
     font-size: 21px;
@@ -104,6 +106,7 @@ li span a {
 .buy-course:hover{
     background-color:  #1db872;
     color: #fff;
+    cursor:pointer;
 }
 
 .card-sizzing{
@@ -127,9 +130,6 @@ small{
     }
 /* Online-courses-section ends */
 /* Testimonial-section  starts*/
-.testtimonial {
-    color:black;
-}
 .testimonial h2 {
     font-weight:700;
 }
@@ -145,7 +145,7 @@ footer{
 footer li{
 list-style-type: none;
 }
-footer li a,footer p{
+footer li a{
 color: #fff;
 font-weight: 400;
 }
