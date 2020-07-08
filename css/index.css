@@ -25,7 +25,7 @@ header{
 }
 .menu a{
     padding:8px 20px !important;
-    border-radius: 20px;
+    border-radius: 33px;
     color:black;
     font-size: 17px;
     transition: all ease-in-out .3s;
@@ -33,7 +33,7 @@ header{
 .menu a:hover{
     font-size: 17px;
     border: none;
-    background-color: #1db872;
+    background-color: #21B573;
     color: #fff !important;
     padding: 8px 20px !important;
     border-radius: 20px;
@@ -49,21 +49,22 @@ li span a {
     color: #21B573;
 }
 .banner h1 {
-    font-weight:700;
+    font-weight:bold;
+    color:#000000;
+    font-size:48px;
 }
 .get-started{
-    padding: 10px 30px;
-    border: 1px solid  #1db872;
+    padding: 12px 36px;
+    border: 1px solid  #21B573;
     background-color: transparent;
-    border-radius: 30px;
+    border-radius: 33px;
     transition: all ease-in-out .3s;
     font-size: 14px;
 }
 .get-started:hover{
-    background-color:  #1db872;
+    background-color:  #21B573;
     color: #fff;
     cursor:pointer;
-    
 }
 /* banner-section-ends  */
 /* header-section-ends  */
@@ -71,8 +72,8 @@ li span a {
 
 /* display-feature-section starts */
 .feature{
-    height: 200px;
-    width: 200px;
+    height: 270px;
+    width: 270px;
     border-radius: 10px;
     background-color: #F8FFFB;
     transition: all ease-in-out .4s;
@@ -83,8 +84,12 @@ li span a {
     cursor:pointer;
 }
 .feature h5{
-    font-size: 21px;
-    
+    font-size: 24px;
+    font-weight:500;
+    color:#413960
+}
+.feature-section p {
+    color:#585859;
 }
 .bg-color {
      background-color:rgba(229, 241, 239, 0.363);
@@ -93,18 +98,24 @@ li span a {
 
 /* Online-courses-section starts  */
  .course-section-color h2,h5{
-     color:rgba(13, 6, 63, 0.876);
+     color:#413960;
  }
+ .course-section-color h2{
+    font-size:36px;
+}
+.course-section-color h5{
+    font-size:24px;
+}
 .buy-course{
-    padding: 5px 20px;
-    border: 1px solid  #1db872;
+    padding: 8px 28px;
+    border: 1px solid  #21B573;
     background-color: transparent;
     border-radius: 30px;
     transition: all ease-in-out .3s;
-    font-size: 14px;
+    font-size: 16px;
 }
 .buy-course:hover{
-    background-color:  #1db872;
+    background-color:  #21B573;
     color: #fff;
     cursor:pointer;
 }
@@ -127,11 +138,21 @@ li span a {
 small{  
     font-size: 14px; 
     font-weight: 500;
+    color:#585859;
     }
 /* Online-courses-section ends */
 /* Testimonial-section  starts*/
 .testimonial h2 {
     font-weight:700;
+    color:#000000;
+}
+.testimonial p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #000000;
 }
 /* Testimonial-section  ends*/
 
@@ -141,6 +162,7 @@ footer{
     color:white;
     text-align:justify;
     background-position: cover;
+    height:370px;
 }
 footer li{
 list-style-type: none;
@@ -148,12 +170,13 @@ list-style-type: none;
 footer li a{
 color: #fff;
 font-weight: 400;
+line-height: 30px;
 }
 footer li a:hover{
 color: #fff;
 }
 footer span {
-    color:rgba(255, 255, 255, 0.603);
+    color:#CDCDCD;
     padding-bottom:50px;
 }
 /* footer-section ends */
